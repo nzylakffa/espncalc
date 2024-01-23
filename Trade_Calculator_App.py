@@ -39,8 +39,8 @@ st.sidebar.markdown("SWID and ESPN_S2 will be the most confusing values to find.
 st.sidebar.markdown("## Note:")
 st.sidebar.markdown("There is going to be an error until you input all of the first 5 values and then click the checkbox. The calculator is telling you that there are no teams pulled. That's going to be the case until you input all of your league data and run the script. Once you do that the error will go away.")
 st.sidebar.markdown("## Links:")
-st.sidebar.markdown("[Click this link to help with collecting your league data](https://www.youtube.com/watch?v=LLSQsDuFdiY)")
-st.sidebar.markdown("[Click this link for a breakdown of how to use the trade calculator](https://www.youtube.com/watch?v=LLSQsDuFdiY)")
+st.sidebar.markdown("[Click this link to help with collecting your league data](https://youtu.be/U4MBRyo5nh4)")
+# st.sidebar.markdown("[Click this link for a breakdown of how to use the trade calculator](https://www.youtube.com/watch?v=LLSQsDuFdiY)")
 st.sidebar.markdown("[Click this link to access the ROS rankings from week 14](https://www.thefantasyfootballadvice.com/ros-rankings-for-trade-calculator/)")
 
 @st.cache_data
