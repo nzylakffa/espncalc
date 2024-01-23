@@ -534,7 +534,7 @@ with tab_trade:
     
 
     # Make those two adjustments to your team
-    my_post_trade_roster = my_post_trade_roster.append(fa_df_values[fa_df_values['Player Name'].isin(fa_add)])
+    my_post_trade_roster = pd.concat([my_post_trade_roster, fa_df_values[fa_df_values['Player Name'].isin(fa_add)]])
     my_post_trade_roster = my_post_trade_roster[~my_post_trade_roster['Player Name'].isin(team_drop)]
     
     # Signal if your team is the correct number of people
