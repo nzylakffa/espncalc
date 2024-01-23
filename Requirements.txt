@@ -13,3 +13,4 @@ from fuzzywuzzy import process
 from re import findall
 from io import StringIO
 from espn_api.football import League
+fuzzywuzzy==0.18.0
