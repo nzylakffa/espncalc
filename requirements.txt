@@ -1,1 +1,2 @@
 fuzzywuzzy==0.18.0
+espn_api==0.34.1
