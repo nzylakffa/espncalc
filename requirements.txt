@@ -1,16 +1,1 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import os
-import re
-import sys
-import io
-import logging
-import concurrent.futures
-import difflib
-from fuzzywuzzy import process
-from re import findall
-from io import StringIO
-from espn_api.football import League
 fuzzywuzzy==0.18.0
-import fuzzywuzzy
