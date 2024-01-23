@@ -30,7 +30,7 @@ sys.stdout = old_stdout
 ###################
 ##### Sidebar #####
 ###################
-# st.sidebar.image('ffa_red.png', use_column_width=True)
+st.sidebar.image('ffa_red.png', use_column_width=True)
 st.sidebar.markdown(" ## About This App:")
 st.sidebar.markdown("This is a trade calculator for those of you playing in ESPN leagues!")
 
