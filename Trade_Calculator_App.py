@@ -9,6 +9,7 @@ import io
 import logging
 import concurrent.futures
 import difflib
+import requests
 from fuzzywuzzy import process
 from re import findall
 from io import StringIO
