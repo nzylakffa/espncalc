@@ -161,7 +161,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                     final_roster['Best Match'] = final_roster['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                     # Split the result into matched and unmatched
-                    final_roster['Matched'] = final_roster['Best Match'].apply(lambda x: x[0] if x[1] >= 80 else None)
+                    final_roster['Matched'] = final_roster['Best Match'].apply(lambda x: x[0] if x[1] >= 90 else None)
                     final_roster['Unmatched'] = final_roster['Player Name'][~final_roster['Matched'].notna()]
 
                     # Merge matched players based on the best match
@@ -672,7 +672,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                 my_team_df['Best Match'] = my_team_df['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                 # Split the result into matched and unmatched
-                my_team_df['Matched'] = my_team_df['Best Match'].apply(lambda x: x[0] if x[1] >= 85 else None)
+                my_team_df['Matched'] = my_team_df['Best Match'].apply(lambda x: x[0] if x[1] >= 90 else None)
                 my_team_df['Unmatched'] = my_team_df['Player Name'][~my_team_df['Matched'].notna()]
 
                 # Merge matched players based on the best match
@@ -698,7 +698,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                 trade_partner_df['Best Match'] = trade_partner_df['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                 # Split the result into matched and unmatched
-                trade_partner_df['Matched'] = trade_partner_df['Best Match'].apply(lambda x: x[0] if x[1] >= 85 else None)
+                trade_partner_df['Matched'] = trade_partner_df['Best Match'].apply(lambda x: x[0] if x[1] >= 90 else None)
                 trade_partner_df['Unmatched'] = trade_partner_df['Player Name'][~trade_partner_df['Matched'].notna()]
 
                 # Merge matched players based on the best match
@@ -1033,7 +1033,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                 fa_df['Best Match'] = fa_df['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                 # Split the result into matched and unmatched
-                fa_df['Matched'] = fa_df['Best Match'].apply(lambda x: x[0] if x[1] >= .85 else None)
+                fa_df['Matched'] = fa_df['Best Match'].apply(lambda x: x[0] if x[1] >= .90 else None)
                 fa_df['Unmatched'] = fa_df['Player Name'][~fa_df['Matched'].notna()]
 
                 # Merge matched players based on the best match
@@ -1437,7 +1437,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                     final_roster['Best Match'] = final_roster['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                     # Split the result into matched and unmatched
-                    final_roster['Matched'] = final_roster['Best Match'].apply(lambda x: x[0] if x[1] >= 80 else None)
+                    final_roster['Matched'] = final_roster['Best Match'].apply(lambda x: x[0] if x[1] >= 90 else None)
                     final_roster['Unmatched'] = final_roster['Player Name'][~final_roster['Matched'].notna()]
 
                     # Merge matched players based on the best match
@@ -1948,7 +1948,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                 my_team_df['Best Match'] = my_team_df['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                 # Split the result into matched and unmatched
-                my_team_df['Matched'] = my_team_df['Best Match'].apply(lambda x: x[0] if x[1] >= 85 else None)
+                my_team_df['Matched'] = my_team_df['Best Match'].apply(lambda x: x[0] if x[1] >= 90 else None)
                 my_team_df['Unmatched'] = my_team_df['Player Name'][~my_team_df['Matched'].notna()]
 
                 # Merge matched players based on the best match
@@ -1974,7 +1974,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                 trade_partner_df['Best Match'] = trade_partner_df['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                 # Split the result into matched and unmatched
-                trade_partner_df['Matched'] = trade_partner_df['Best Match'].apply(lambda x: x[0] if x[1] >= 85 else None)
+                trade_partner_df['Matched'] = trade_partner_df['Best Match'].apply(lambda x: x[0] if x[1] >= 90 else None)
                 trade_partner_df['Unmatched'] = trade_partner_df['Player Name'][~trade_partner_df['Matched'].notna()]
 
                 # Merge matched players based on the best match
@@ -2301,7 +2301,7 @@ if league_id and year and swid and espn_s2:  # Check if all the info is inputed
                 fa_df['Best Match'] = fa_df['Player Name'].apply(lambda x: find_best_match(x, ros['Player Name']))
 
                 # Split the result into matched and unmatched
-                fa_df['Matched'] = fa_df['Best Match'].apply(lambda x: x[0] if x[1] >= .85 else None)
+                fa_df['Matched'] = fa_df['Best Match'].apply(lambda x: x[0] if x[1] >= .90 else None)
                 fa_df['Unmatched'] = fa_df['Player Name'][~fa_df['Matched'].notna()]
 
                 # Merge matched players based on the best match
