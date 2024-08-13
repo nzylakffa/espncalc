@@ -61,7 +61,7 @@ def fetch_league_data(league_id, year, swid, espn_s2):
 
 # User needs to input these values
 league_id = st.number_input("Input League ID", value=0)
-year = st.number_input("Input Year (Use 2023 for last season...2024 for a league that drafted in 2024)", value=2023)
+year = st.number_input("Input Year (Use 2023 for last season...2024 for a league that drafted in 2024)", value=2024)
 swid = st.text_input("Input swid (Watch the video on the sidebar to learn how to find this)", value="")
 espn_s2 = st.text_input("Input espn_s2 (Watch the video on the sidebar to learn how to find this)", value="")
 
